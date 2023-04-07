@@ -6,7 +6,7 @@ OpenGL 3.3 is already included in glad.h and glad.c
 
 Libraries needed to be install: opencv, glfw, glm
 
-For glfw and glm, please download using this command:
+For glfw and glm, please download using these commands:
 
 
 ```
