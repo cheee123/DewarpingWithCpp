@@ -1,19 +1,29 @@
-# Dewarping With Cpp
+# Dewarping With C++
 
-Dewarping with C++ and OpenGL
+Dewarping fish-eye image with C++ and OpenGL
 
-OpenGL is included in glad
+OpenGL 3.3 is already included in glad.h and glad.c
 
 Libraries needed to be install: opencv, glfw, glm
 
 For glfw and glm, please download using this command:
 
-'cd Dewarping'
-'git submodule add https://github.com/glfw/glfw.git external/glfw'
-'git submodule add https://github.com/g-truc/glm.git external/glm'
 
-Change mode of these files
-'chmod +x ./configure.sh ./build.sh ./run.sh ./doall.sh'
+```
+cd Dewarping
+git submodule add https://github.com/glfw/glfw.git external/glfw
+git submodule add https://github.com/g-truc/glm.git external/glm
+```
 
-Then run the following command to run all
-'./doall.sh'
+After all the packages and libraries are installed
+
+Please change the mode of the following files by:
+
+```
+chmod +x ./configure.sh ./build.sh ./run.sh ./doall.sh
+```
+
+Then run the following command to run all (cmake, make, etc.)
+```
+./doall.sh
+```
