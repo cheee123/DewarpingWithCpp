@@ -4,7 +4,7 @@ Dewarping fish-eye image with C++ and OpenGL
 
 OpenGL 3.3 is already included in glad.h and glad.c
 
-Libraries needed to be install: opencv, glfw, glm
+Required libraries: opencv, glfw, glm
 
 For glfw and glm, please download using these commands:
 
